@@ -1,0 +1,48 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_acc"
+        android:id="@+id/btn_acc"
+        android:layout_marginTop="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="demoActivity"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_magnetic"
+        android:id="@+id/btn_magnetic"
+        android:layout_below="@+id/btn_acc"
+        android:layout_alignStart="@+id/btn_acc"
+        android:layout_marginTop="32dp"
+        android:onClick="demoActivity"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_temp"
+        android:id="@+id/btn_temp"
+        android:layout_marginTop="34dp"
+        android:onClick="demoActivity"
+        android:layout_below="@+id/btn_magnetic"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:id="@+id/btn_location"
+        android:onClick="demoActivity"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/btn_temp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

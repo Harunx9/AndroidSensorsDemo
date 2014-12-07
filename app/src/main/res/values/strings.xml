@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorsDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Sensors Demo</string>
+    <string name="btn_temp">Illuminance</string>
+    <string name="btn_magnetic">Magnetic Field</string>
+    <string name="btn_acc">Accelerometer</string>
+    <string name="title_activity_accelerator">AcceleratorActivity</string>
+    <string name="l_fx">Force X</string>
+    <string name="l_fy">Force Y</string>
+    <string name="l_fz">Force Z</string>
+    <string name="title_activity_temperature">TemperatureActivity</string>
+    <string name="l_temp">Illumination</string>
+    <string name="title_activity_magnetic">MagneticActivity</string>
+    <string name="title_activity_pressure">PressureActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+
+</resources>
